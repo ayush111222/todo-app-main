@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js" defer></script>
+    <title>Frontend Mentor | Todo app</title>
+  </head>
+  <body>
+    <main>
+      <div class="img-container">
+        <div class="header">
+          <h1>Todo</h1>
+          <img class="header-logo sun" src="images/icon-sun.svg" alt="" />
+        </div>
+        <div class="todo-container">
+          <div class="todo-input-box">
+    
+            <div class="showpice-box">
+              <div class="check-box-border">
+                  <div class="showpice"></div>
+              </div>
+            </div>
+            <form action="" class="todo-form">
+              <input
+                type="text"
+                name=""
+                id=""
+                class="todo-input-text"
+                placeholder="Create a new todo..."
+              />
+            </form>
+
+          </div>
+          <div class="todo-list-container">
+            <ul class="todo-list container container-1">
+              <li draggable="true" class="draggbles completed">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box always-completed">
+                      <img class="block" src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p class="line-through">Complete online javaScript course</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+
+              <li draggable="true" class="draggbles">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box">
+                      <img src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p>Jog around the park 3x</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+
+              <li draggable="true" class="draggbles">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box">
+                      <img src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p>10 minutes meditation</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+
+              <li draggable="true" class="draggbles">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box">
+                      <img src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p>Read for 1 hour</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+
+              <li draggable="true" class="draggbles">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box">
+                      <img src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p>Pick up groceries</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+
+              <li draggable="true" class="draggbles completed">
+                <div class="box-1">
+                  <div class="check-box-border">
+                    <div class="check-box always-completed">
+                      <img class="block" src="images/icon-check.svg" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="box-2">
+                  <p class="line-through">Complete Todo App on Frontend Mentor</p>
+                </div>
+                <img class="remove" src="images/icon-cross.svg" alt="" />
+              </li>
+            </ul>
+
+            <div class="list-records">
+              <div class="items-left">
+                <span id="items-left-value"></span> items left
+              </div>
+
+              <div class="tabs">
+                <div class="all all-tab">All</div>
+                <div class="active-tab">active</div>
+                <div class="completed-tab">Completed</div>
+              </div>
+
+              <div class="clear-completed">Clear Completed</div>
+            </div>
+          </div>
+          <div class="recorder container container-2">
+            Drag and drop to reorder list
+          </div>
+        </div>
+        
+      </div>
+      
+    </main>
+
+    <!-- <div class="check-box-border">
+    <div class="check-box">
+      <img src="images/icon-check.svg" alt="">
+    </div>
+ </div> -->
+
+    <!-- <img src="images/icon-cross.svg" alt="">
+  <img src="images/icon-moon.svg" alt="">
+  <img src="images/icon-sun.svg" alt=""> -->
+
+    <!-- Todo -->
+
+    <!-- Add dynamic number items left -->
+
+    <!-- All
+  Active 
+  Completed
+
+  Clear Completed
+
+  Drag and drop to reorder list -->
+  </body>
+</html>
