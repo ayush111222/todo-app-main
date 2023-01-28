@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
-/* font-family: 'Josefin Sans', sans-serif; */
 * {
     margin: 0;
     padding: 0;
@@ -280,7 +279,6 @@ body.moon-theme {
 }
 .recorder {
     min-height: 50vh;
-    /* background-color: yellow; */
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -338,14 +336,12 @@ body.moon-theme {
         padding: 1rem 1rem;
         font-size: 1rem;
         color: white;
-        /* background: hsl(237,22%,19%); */
         font-family: 'Josefin Sans', sans-serif;
         border-bottom: 1px solid hsl(233,20%,24%);
         cursor: pointer;
     }
     .recorder {
         min-height: 50vh;
-        /* background-color: yellow; */
         display: flex;
         flex-direction: column;
         align-items: center; 

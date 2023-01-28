@@ -245,43 +245,33 @@ body.addEventListener("click", function(e){
    
 })
 
-// const recorderContainer = document.querySelectorAll(".container");
 const container_1 = document.querySelector(".container-1");
 const container_2 = document.querySelector(".container-2");
-// const todoListLis = document.getElementsByTagName("li");
 body.addEventListener("dragstart", (e)=>{
-        body.addEventListener("touchstart", (e)=>{
                 if(e.target.classList.contains("draggbles")){
                         e.target.classList.add("dragging")
                         console.log("touchstart")
                 }
-        })
 })
 body.addEventListener("dragend", (e)=>{
-        body.addEventListener("touchend", (e)=>{
                 if(e.target.classList.contains("draggbles")){
                         e.target.classList.remove("dragging")
                         console.log("touchend")
                 }
-        })
 })
 container_1.addEventListener("dragover", (e)=>{
-        container_1.addEventListener("tocuhend", (e)=>{
                 e.preventDefault();
                 const itemLeft = document.querySelector("#items-left-value");
                 const draggingLis = document.querySelector(".dragging");
                 container_1.append(draggingLis);
                 itemLeft.innerText = container_1.children.length;
-        })
 })
 container_2.addEventListener("dragover", (e)=>{
-        container_2.addEventListener("touchend", (e)=>{
                 e.preventDefault();
                 const itemLeft = document.querySelector("#items-left-value");
                 const draggingLis = document.querySelector(".dragging");
                 container_2.append(draggingLis)
                 itemLeft.innerText = container_1.children.length;
-        })
 })
 
 
